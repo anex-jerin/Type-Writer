@@ -6,8 +6,17 @@
   font-family: 'Orbitron', sans-serif;
 }
 
-
-h1{
-    margin:10rem auto;
-    text-align: center;
+body {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0);
+}
+h1 {
+  margin: 40vh auto;
+  text-align: center;
+  background-image:url('doodle.webp') ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: 30% 34%;
 }
